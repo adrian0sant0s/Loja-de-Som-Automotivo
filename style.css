@@ -106,14 +106,14 @@ a{
 
 /* clients */
 
-#clients {
+#partners {
     width: 100%;
-    background:#eee;
+    background:rgb(255, 254, 254);
     color: #111;
     padding: 50px;
 }
 
-#clients-container {
+#partner-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
@@ -122,9 +122,10 @@ a{
 
 }
 
-.client {
-    display: inline-block;
-    width: 25%;
+.partner {
+    height: 200px;
+    width: auto;
+    display: inline-block;  
 }
 
 /* about */
