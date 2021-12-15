@@ -20,6 +20,7 @@ a{
 .btn {
     display: inline-block;
     padding: 15px 60px;
+    margin: 30px 0 10px 0;
     font-size: 1.1rem;
     text-transform: uppercase;
     background: #111;
@@ -82,9 +83,9 @@ a{
     height: 100vh;
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: #eee;
-    background: url("./assets/showcase.jpg") no-repeat center center/cover;
+    align-items: flex-end;
+    color: black;
+    background: url("./assets/showcasea.jpg") no-repeat center center/cover;
 
     /* overlay */
     background-color: rgba(0, 0, 0, 0.4);
@@ -97,11 +98,14 @@ a{
 
 #showcase-container h2 {
     font-size: 2.5rem;
+    background-color: rgba(250, 248, 248, 0.664);
+    margin-bottom: 5px;
 }
 
 #showcase-container p{
    font-size: 1.2rem;
    padding: 7px 0;
+    background-color: rgba(250, 248, 248, 0.664);
 }
 
 /* clients */
@@ -132,8 +136,8 @@ a{
 
 #features {
     width: 100%;
-    background: #222;
-    color: #eee;
+    background:rgb(255, 254, 254);
+    color: #222;
     padding: 50px;
 }
 
@@ -151,6 +155,7 @@ a{
     background: #333;
     padding: 20px;
     border-radius: 5px;
+    color: #eee;
 }
 
 .feature-title {
@@ -159,29 +164,32 @@ a{
 }
 
 /* Product */
+#products {
+    width: 100%;
+    margin: auto;
+    padding: 50px;
+    background-color: #222;
+}
 
 #product {
-    width: 100%;
-    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+    justify-items: center;
 }
 
-#product-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.product-image {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    border-radius: 5px;
 }
 
-#items {
-    width: 650px;
-}
-
-.item {
-    display: flex;
-    padding: 10px;
-    margin: 15px 0;
-    font-size: 1.2rem;
-}
-
+.product-container p {
+    background: rgb(2, 6, 49);
+    color: white;
+    padding:10px;
+} 
 /* testimonials */
 
 .testimonial {
@@ -196,10 +204,11 @@ a{
 
 #testimonials {
     width: 100%;
-    background: #222;
+    background:#222;
     color: #eee;
     padding: 50px;
 }
+
 
 #testimonials-container {
     width: 80%;
@@ -214,28 +223,6 @@ a{
     width: auto;
     border-radius: 50%;
     margin: 15px;
-}
-
-/* gallery */
-
-#gallery {
-    width: 90%;
-    margin: auto;
-    padding: 50px;
-}
-
-#gallery-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
-    justify-items: center;
-}
-
-.gallery-image {
-    display: inline-block;
-    width: 350px;
-    height: auto;
-    border-radius: 5px;
 }
 
 /* footer */
