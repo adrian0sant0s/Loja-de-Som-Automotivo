@@ -183,6 +183,12 @@ a{
     width: 350px;
     height: 350px;
     border-radius: 5px;
+    
+}
+
+.product-image:hover {
+    width: 355px;
+    cursor: pointer;
 }
 
 .product-container p {
@@ -190,6 +196,26 @@ a{
     color: white;
     padding:10px;
 } 
+
+.product-container button {
+    background: white;
+    color: rgb(2, 6, 49);
+    font-size: 15px;
+    padding: 4px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-left: 270px;
+}
+
+.product-container button:hover {
+    cursor: pointer;
+    background: rgba(21, 29, 136, 0.514);
+    color: white;
+
+}
+
+
 /* testimonials */
 
 .testimonial {
