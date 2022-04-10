@@ -1,15 +1,7 @@
 # Invictus Sound
 
-
-<img src="./assets/print-tela.png" alt="printscreen da tela inicial">
-
-> Loja de som automotivo para alta perfomance!
-
-<br>
-
 <img src="./assets/invictus.gif" alt="gif da página">
-
-> uma amostra da página!
+> Loja de som automotivo para alta perfomance!
 
 ### Ajustes e melhorias
 
